@@ -1,0 +1,22 @@
+{
+    "name": "oblogic7/tlog-php",
+    "description": "Parse MavLink telemetry logs.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Snyder",
+            "email": "matt@obscurelogic.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "~1.20",
+        "codeception/codeception": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oblogic7\\Tlog\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "scripts": {}
+}
