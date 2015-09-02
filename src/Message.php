@@ -24,7 +24,7 @@ class Message
      */
     public function getId()
     {
-        return $this->entry->header->id;
+        return null !== $this->entry->header ? $this->entry->header->id : null;
     }
 
     /**
