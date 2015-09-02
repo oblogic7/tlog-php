@@ -62,9 +62,9 @@ class MessageFactory
             case in_array($entry->header->id, range(150, 240), true):
                 $message = new Dummy($entry);
                 break;
-//            case 253:
-//                $message = new StatusText($entry);
-//                break;
+            case 253:
+                $message = new StatusText($entry);
+                break;
             default:
                 $message = new Dummy($entry);
         }
