@@ -137,8 +137,6 @@ class Message
 
         $payload = $this->entry->payload;
 
-        echo "Byte(s): $from $to" . PHP_EOL;
-
         if ($to !== null && is_numeric($to)) {
             $to -= $from;
             $to++;
