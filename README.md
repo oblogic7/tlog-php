@@ -1,5 +1,3 @@
-# Skeleton
-
 [![Build Status](https://secure.travis-ci.org/peterkokot/php-skeleton.png?branch=master)](http://travis-ci.org/peterkokot/php-skeleton)
 
 PSR-4 compatible PHP package for parsing MavLink telemetry logs.  Inspired by [code-lever/mavlink-log](https://github.com/code-lever/mavlink-log).
